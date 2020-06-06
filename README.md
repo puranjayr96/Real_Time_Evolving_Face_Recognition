@@ -1,5 +1,5 @@
 # Real_Time_Evolving_Face_Recognition
-A real time facial recognition application, which uses MTCNN for facial detection and Facenet for facial recognition
+A real time facial recognition application, which uses MTCNN for facial detection and Facenet for facial recognition. Face data is stored in a 128 bit encoding vector.
 
 Language used: Python 3
 
@@ -7,6 +7,12 @@ Libraries used:
 Tensorflow
 OpenCV
 numpy
+
+Chronology for execution:
+new_face.py
+aligndata_first.py
+create_classifier_se.py
+rt_detect_face.py
 
 
 Citation:
